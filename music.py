@@ -13,7 +13,7 @@ import random
 import datetime
 
 # Bot configuration
-TOKEN = 'MTI4OTU1OTA5MzY2MDQ4Nzc3Mw.GNnbhH.49bZBOSi-dfmrcm0PRb7lyCEc8obkiCGkXYf7k'
+TOKEN = input("Please enter your Discord bot token: ")
 GUILD_ID = 1286329856761532478
 SPOTIFY_CLIENT_ID = '5b2a977b13f648fa825bdebcb7519afc'
 SPOTIFY_CLIENT_SECRET = 'a06b211758c046508ad0dccdc01a48c0'
