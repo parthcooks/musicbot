@@ -13,7 +13,7 @@ import random
 import datetime
 
 # Bot configuration
-TOKEN = 'MTI4NzA4MzE3NzY0Njc1MTc0NA.GT-4XF.eG1iz4TNYLFxfY94laYtTmYSMGpmBvce1A1pDA'
+TOKEN = 'MTI4OTU1OTA5MzY2MDQ4Nzc3Mw.GNnbhH.49bZBOSi-dfmrcm0PRb7lyCEc8obkiCGkXYf7k'
 GUILD_ID = 1286329856761532478
 SPOTIFY_CLIENT_ID = '5b2a977b13f648fa825bdebcb7519afc'
 SPOTIFY_CLIENT_SECRET = 'a06b211758c046508ad0dccdc01a48c0'
@@ -31,6 +31,7 @@ YTDL_OPTIONS = {
     'ignoreerrors': False,
     'logtostderr': False,
     'quiet': True,
+    'cookiefile': 'cookies.txt',
     'no_warnings': True,
     'default_search': 'ytsearch',
     'source_address': '0.0.0.0',
